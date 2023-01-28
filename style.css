@@ -1,0 +1,329 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Comfortaa:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+ 
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family: 'Bad Script', cursive;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Yeseva One', cursive;
+
+}
+
+
+header{
+ 
+    width: 100%;
+    background-color:#6d3980;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 900;
+    font-size: 1.8em;
+
+}
+.navigation a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+.navigation a:hover{
+    
+    color:#2B3036;
+  
+
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+width:100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+background-image: url(p1.jpg);
+background-size: cover;
+background-position: center;
+background-attachment:fixed;
+
+}
+.main h2{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+
+    color:#cfa8ff;
+    font-size: 3em;
+    font-weight: 600;
+    display: inline;
+    margin-top: 10px;
+
+}
+.main h3{
+    color: #bfd4ff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top:  10px;;
+    margin-bottom: 30px;
+}
+.main-button{
+    color: rgb(255, 255, 255);
+    background-color: #6d3980c2;
+    text-decoration: none;
+    font-size: 1.em;
+    font-weight: 300;
+    display: inline-block;
+    padding: 0.9375em;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    transition: 0,6s ease;
+
+}
+.main-button:hover{
+    background-color: #6d3980;
+    transform: scale(1.1);
+    
+
+}
+
+.soical a{
+    color:#ffffff;
+    font-size: 1.3em;
+    padding-right: 30px;
+}
+.soical a:hover{
+    color:#95b2eb;
+    font-size: 1.8em;
+    transform: scale(1.1);
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #cfa8ff;
+    font-size:2.2em;
+    font-weight:800;
+    margin-bottom: 30px ;
+
+}
+.major{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size:1.3em;
+    font-weight:300;
+    margin-bottom: 30px ;
+
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+
+    background-color:#066699;
+
+    width:21.25em;
+    box-shadow: 0 5px 25px #2b1234;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;;
+}
+.card:hover{
+    background-color: #6d3980;
+    transform: scale(1.1);
+    transition: 0,6s ease;
+
+}
+#education{
+    background-color: #232B38;
+}
+.icon{
+    color: #cfa8ff;
+    font-size: 5em;
+    text-align: center;
+}
+.descrption{
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+}
+.projects{
+    background-color: #232B38;
+    color: #ffffff;
+}
+.projects .content{
+margin-top:30px;
+}
+.project-card{
+    background-color: #066699;
+    border: 4px solid #066699;
+    min-height: 14em;
+    width:23em;
+    overflow: hidden;  
+    border-radius: 20px;
+    margin: 20px;
+    transform: 0.6s ease;
+   
+}
+.project-card:hover{
+ 
+    transform: scale(1.1);
+    background-color: #6d3980;
+    border: 4px solid #6d3980;
+
+}
+.project-image img{
+    width:100%;
+}
+
+.project-info{
+    padding: 1em;
+    font-size: 1.2em;
+    text-align: center;
+}
+.projects a{
+    color: #d6f0ff;
+}
+.projects a:hover{
+    color: #cfa8ff;
+}
+.project-name{
+    font-size: 1em;
+}
+.about{
+    width:100%;
+    padding: 78px 0px;
+    background-color: #232B38;
+}
+
+.about img{
+    height:auto;
+    width: 500px;
+}
+.me{
+    background-color: #232B38;
+    margin:0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 1300x;;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+.about-text{
+    width: 550px;
+}
+.about-text h1{
+
+color: rgb(255, 255, 255);
+font-size: 80px;
+text-transform: capitalize;
+margin-bottom: 20px;
+
+
+}
+.about-text h5{
+
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+   
+    }
+
+.about-text p{
+
+    
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    
+
+        }
+.designer{
+    color: #cfa8ff;
+}
+.letstalk{
+    background-color:#cfa8ff;
+    color:#232B38;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 13px 30px;
+
+
+}
+.letstalk:hover{
+    background-color:#6d3980;
+    color: rgb(255, 255, 255);
+}
+
+.talk{
+    text-decoration: none;
+    font-size:30px;
+    color: #ffffff;
+    text-align: center;
+}
+.cards-contact{
+    background-color: #232B38;
+}
+.contacticon{
+    color:#cfa8ff;
+}
+hr{
+    border:1px solid black;
+}
+.footer{
+    background-color: #6d3980;
+    color: #ffffff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-title span{
+
+    color: #cfa8ff;
+}
+
+
+
